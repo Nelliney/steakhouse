@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+/* ---------------------GLOBAL STUFF ---------------------*/
+
+body{
+    background-image: url(../images/2.jpg);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Orelega One', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 35px;
+    color: #CF0107;
+}
+
+
+h3 {
+    font-family: 'Orelega One', cursive;
+    font-size: 25px;
+}
+
+main {
+    margin: 3%;
+    color: #2B282E;
+}
+
+.toptext {
+    text-align: center;
+}
+
+/* ---------------------NAV STUFF ---------------------*/ 
+
+
+
+.menu > ul {
+    display:flex;  
+    background: #2B282E;
+    justify-content: space-around;
+    list-style: none;
+}
+
+  
+.menu  ul {
+    padding: .5rem 0rem;
+    margin: 0;  
+}
+
+nav li {
+    padding: .3rem 0rem;
+}
+
+nav a {
+    color: #DCD4CB;
+}
+
+/* ---------------------HEDERS ---------------------*/
+
+header {
+    height: 180px;
+    padding: 5%;
+    background-color:#2A2429;
+    background-image: url(../images/cpkPJ-U9eUM.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position: center top;
+}
+
+
+
+
+
+/* ---------------------PAGES ---------------------*/
+
+.steakchild {
+    background-color: rgba(225,225,225,0.7);
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (min-width: 600px) {
+
+    header {
+        height: 300px;
+        background-position: center;
+        
+    }
+
+    .steakparent {
+        display: flex;
+        justify-content: space-between;
+    }
+    .steakchild{
+        width: 24%;
+    }
+
+    .main-nav > ul {
+        display:flex;
+        justify-content:space-around;
+        margin: 0;
+    }
+
+    nav li {
+        padding: .5rem 0rem; 
+    }
+
+}
+    
+
+/* ---------------------FOOTER ---------------------*/
+
+footer {
+    background-color: #403836;
+    height: 100px;
+    padding: 2%;
+    text-align: center;
+    color: #D1D1D1;
+}
